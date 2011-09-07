@@ -1,8 +1,8 @@
 %define oname ffi
 
 Name:       rubygem-%{oname}
-Version:    0.6.3
-Release:    %mkrel 2
+Version:    1.0.9
+Release:    %mkrel 1
 Summary:    A ruby extension for programmatically loading dynamic libraries
 Group:      Development/Ruby
 License:    LGPLv3
@@ -53,11 +53,11 @@ rm -rf %{buildroot}
 %{ruby_gemdir}/gems/%{oname}-%{version}/lib/
 %{ruby_gemdir}/gems/%{oname}-%{version}/spec/
 %{ruby_gemdir}/gems/%{oname}-%{version}/tasks/
-%doc %{ruby_gemdir}/doc/%{oname}-%{version}
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/History.txt
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/LICENSE
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/Rakefile
 %doc %{ruby_gemdir}/gems/%{oname}-%{version}/README.rdoc
+%doc %{ruby_gemdir}/doc/%{oname}-%{version}
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{ruby_sitearchdir}/ffi_c.so
