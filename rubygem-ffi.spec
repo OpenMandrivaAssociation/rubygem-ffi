@@ -48,7 +48,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-, root, root, -)
 %dir %{ruby_gemdir}/gems/%{oname}-%{version}/
-#%{ruby_gemdir}/gems/%{oname}-%{version}/.require_paths
+#% {ruby_gemdir}/gems/% {oname}-% {version}/.require_paths
 %{ruby_gemdir}/gems/%{oname}-%{version}/gen/
 %{ruby_gemdir}/gems/%{oname}-%{version}/lib/
 %{ruby_gemdir}/gems/%{oname}-%{version}/spec/
