@@ -14,6 +14,7 @@ Requires:   ruby-rake
 BuildRequires: rubygems
 BuildRequires: ruby-devel
 BuildRequires: ruby-rake
+BuildRequires: ruby-rdoc
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
