@@ -2,17 +2,15 @@
 
 Name:       rubygem-%{oname}
 Version:    1.0.11
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    A ruby extension for programmatically loading dynamic libraries
 Group:      Development/Ruby
 License:    LGPLv3
 URL:        http://wiki.github.com/ffi/ffi
 Source0:    http://rubygems.org/gems/%{oname}-%{version}.gem
 Requires:   rubygems
-Requires:   ruby-rake
 BuildRequires: rubygems
 BuildRequires: ruby-devel
-BuildRequires: ruby-rake
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
