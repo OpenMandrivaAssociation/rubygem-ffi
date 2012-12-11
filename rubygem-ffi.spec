@@ -53,3 +53,32 @@ mv %{buildroot}%{ruby_gemdir}/gems/%{oname}-%{version}/lib/*.so %{buildroot}%{ru
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{ruby_sitearchdir}/ffi_c.so
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.0.11-3
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Tue Jan 24 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.0.11-2
++ Revision: 768103
+- ruby-rake removed
+
+* Mon Jan 23 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.0.11-1
++ Revision: 766996
+- version update 1.0.11
+
+* Thu Sep 08 2011 Andrey Smirnov <asmirnov@mandriva.org> 1.0.9-1
++ Revision: 699018
+- missing rdoc fix
+- rpmlint warning
+
+  + Alexander Barakin <abarakin@mandriva.org>
+    - imported package rubygem-ffi
+    - imported package rubygem-ffi
+
+* Sun Dec 19 2010 Rémy Clouard <shikamaru@mandriva.org> 0.6.3-2mdv2011.0
++ Revision: 623112
+- fix build
+- import rubygem-ffi
+
