@@ -2,7 +2,7 @@
 
 Name:       rubygem-%{oname}
 Version:    1.0.11
-Release:	5
+Release:	6
 Summary:    A ruby extension for programmatically loading dynamic libraries
 Group:      Development/Ruby
 License:    LGPLv3
