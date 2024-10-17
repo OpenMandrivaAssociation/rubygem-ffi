@@ -6,7 +6,7 @@ Release:	6
 Summary:    A ruby extension for programmatically loading dynamic libraries
 Group:      Development/Ruby
 License:    LGPLv3
-URL:        http://wiki.github.com/ffi/ffi
+URL:        https://wiki.github.com/ffi/ffi
 Source0:    http://rubygems.org/gems/%{oname}-%{version}.gem
 Requires:   rubygems
 BuildRequires: rubygems
